@@ -41,15 +41,23 @@ The system combines machine learning with rule-based analysis and provides a das
 ---
 
 ## Project Structure
-app.py
-predict.py
-features.py
-model.pkl
-logs.csv
-templates/
-static/
-
----
+phishing_detection_system/
+│
+├── app.py                  # Flask main app
+├── train_model.py          # Model training script
+├── predict.py              # Prediction script
+├── features.py             # Feature extraction
+├── phishing_dataset.csv    # Original dataset for training
+├── model.pkl               # Trained ML model
+├── log.csv                 # User prediction logs
+├── clogs.csv               # Another log (e.g., for errors)
+│
+├── templates/              # Flask HTML templates
+│   ├── index.html          # Home / input page
+│   └── dashboard.html      # Dashboard / results page
+│
+└── static/                 # CSS, JS, images, etc.
+    └── style.css           # Stylesheet
 
 ## Future Improvements
 - Improve dataset for better accuracy  
