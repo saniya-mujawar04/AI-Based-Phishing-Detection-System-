@@ -59,6 +59,13 @@ phishing_detection_system/
 └── static/
 └── style.css
 
+##Project Output
+
+### Home Page
+! [Home Page]("C:\Users\SANIYA\Downloads\pro1.png")
+
+### Dashboard
+![Dashboard]("C:\Users\SANIYA\Downloads\proj2.png")
 
 ## Future Improvements
 - Improve dataset for better accuracy  
